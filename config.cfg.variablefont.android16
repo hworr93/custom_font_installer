@@ -3,7 +3,7 @@
 # Target Font: Shanggu Sans Variable (VF)
 
 # ==========================================
-# Core Life-Saving Premise (Android 16 Required)
+# Core Lifesaving Settings (Android 16 Required)
 # ==========================================
 
 # Force Disable Automatic Metric Correction (Prevents Bootloops and XML Errors)
@@ -20,8 +20,8 @@ Weight_Axis = 100, 900
 # ==========================================
 
 # Google Sans Replacement Strategy
-# false = Forcefully replace Google Sans with your chosen font (applies to headings as well)
-# true  = Keep Stock Google Sans (Do not select this)
+# false = Force replace Google Sans with your chosen font (applies to headings as well)
+# true  = Retain the original Google Sans (do not select this option)
 GS = false
 
 # Line Height Adjustment (If the text feels too cramped or too spaced out, you can change this to 1.1 or 0.9.)
@@ -43,7 +43,7 @@ UB  = wght 700
 UEB = wght 800
 UBL = wght 900
 
-# Italic Mapping (Italic) — Corresponds to your ssi.ttf
+# Italic Mapping - Corresponds to your ssi.ttf
 IT  = wght 100
 IEL = wght 200
 IL  = wght 300
@@ -55,32 +55,7 @@ IEB = wght 800
 IBL = wght 900
 
 # ==========================================
-# File Naming Convention (Do not modify)
-# ==========================================
-SS   = ss.ttf
-SSI  = ssi.ttf
-MS   = ms.ttf
-MSI  = msi.ttf
-  = wght 400
-UM  = wght 500
-USB = wght 600
-UB  = wght 700
-UEB = wght 800
-UBL = wght 900
-
-# Italic Mapping (Italic) — Corresponds to your ssi.ttf
-IT  = wght 100
-IEL = wght 200
-IL  = wght 300
-IR  = wght 400
-IM  = wght 500
-ISB = wght 600
-IB  = wght 700
-IEB = wght 800
-IBL = wght 900
-
-# ==========================================
-# File Naming Convention (Do not modify)
+# Filename Definition (Do not modify)
 # ==========================================
 SS   = ss.ttf
 SSI  = ssi.ttf
