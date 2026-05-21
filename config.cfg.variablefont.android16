@@ -1,0 +1,88 @@
+# Custom Font Installer Config
+# Adjusted for Android 16 / LineageOS 23
+# Target Font: Shanggu Sans Variable (VF)
+
+# ==========================================
+# Core Life-Saving Premise (Android 16 Required)
+# ==========================================
+
+# Force Disable Automatic Metric Correction (Prevents Bootloops and XML Errors)
+Correction = 0
+
+# Explicitly declare this as a Variable Font.
+Type = VF
+
+# Define the weight axis range (Source Sans / Noto Sans typically ranges from 100 to 900).
+Weight_Axis = 100, 900
+
+# ==========================================
+# Replacement Strategy
+# ==========================================
+
+# Google Sans Replacement Strategy
+# false = Forcefully replace Google Sans with your chosen font (applies to headings as well)
+# true  = Keep Stock Google Sans (Do not select this)
+GS = false
+
+# Line Height Adjustment (If the text feels too cramped or too spaced out, you can change this to 1.1 or 0.9.)
+LINE = 1.0
+
+# ==========================================
+# File Mapping (Do not modify; map this to your ss.ttf)
+# ==========================================
+
+# Variable Font Weight Mapping (Upright)
+# This tells the system: when it needs to render in "Bold," adjust the `wght` axis of `ss.ttf`.
+UT  = wght 100
+UEL = wght 200
+UL  = wght 300
+UR  = wght 400
+UM  = wght 500
+USB = wght 600
+UB  = wght 700
+UEB = wght 800
+UBL = wght 900
+
+# Italic Mapping (Italic) — Corresponds to your ssi.ttf
+IT  = wght 100
+IEL = wght 200
+IL  = wght 300
+IR  = wght 400
+IM  = wght 500
+ISB = wght 600
+IB  = wght 700
+IEB = wght 800
+IBL = wght 900
+
+# ==========================================
+# File Naming Convention (Do not modify)
+# ==========================================
+SS   = ss.ttf
+SSI  = ssi.ttf
+MS   = ms.ttf
+MSI  = msi.ttf
+  = wght 400
+UM  = wght 500
+USB = wght 600
+UB  = wght 700
+UEB = wght 800
+UBL = wght 900
+
+# Italic Mapping (Italic) — Corresponds to your ssi.ttf
+IT  = wght 100
+IEL = wght 200
+IL  = wght 300
+IR  = wght 400
+IM  = wght 500
+ISB = wght 600
+IB  = wght 700
+IEB = wght 800
+IBL = wght 900
+
+# ==========================================
+# File Naming Convention (Do not modify)
+# ==========================================
+SS   = ss.ttf
+SSI  = ssi.ttf
+MS   = ms.ttf
+MSI  = msi.ttf
